@@ -2,14 +2,14 @@
 /*
 IN THE NAME OF ALLAH
 
-Sample Name			:	Bot Authentication with Email
-Coder				:	Amir Hossein Yeganeh [Sir.4m1R]
+Sample Name		:	Bot Authentication with Email
+Coder			:	Amir Hossein Yeganeh [Sir.4m1R]
 Coder Telegram		:	@Sir4m1R
 GitHub Address		:	https://github.com/iNeoTeam/bot-authentication-with-email
 Telegram Channel	:	@iNeoTeam
 */
 error_reporting(0);
-$api = "https://api.ineotm.ir";
+$api = "https://api.ineo-team.ir";
 $fromMail = "verify@gmail.com";
 $cancelButton = json_encode(['keyboard' => [
 [['tex' => "لغو عملیات"]],
@@ -71,8 +71,8 @@ if($text == "/email"){
 }
 unlink("error_log");
 /*
-Sample Name			:	Bot Authentication with Email
-Coder				:	Amir Hossein Yeganeh [Sir.4m1R]
+Sample Name		:	Bot Authentication with Email
+Coder			:	Amir Hossein Yeganeh [Sir.4m1R]
 Coder Telegram		:	@Sir4m1R
 GitHub Address		:	https://github.com/iNeoTeam/bot-authentication-with-email
 Telegram Channel	:	@iNeoTeam
