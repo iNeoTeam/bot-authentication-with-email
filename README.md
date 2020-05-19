@@ -10,7 +10,7 @@
 $text = $update->message->text;
 $message = $update->message;
 $chat_id = $update->message->chat->id;
-$api = "https://api.ineotm.ir";
+$api = "https://api.ineo-team.ir";
 $fromMail = "verify@gmail.com";
 $step = file_get_contents("data/$chat_id/step.txt");
 
